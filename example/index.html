@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+      #leftdeck{
+        position: fixed;
+        top: calc(50% + 1.5rem);
+        left: 30%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        -moz-transform: translate3d(-50%, -50%, 0);
+        -o-transform: translate3d(-50%, -50%, 0);
+        -ms-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+            }
+            #leftcaption{
+        position: fixed;
+        top: calc(70% + 1.5rem);
+        right: 30%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        -moz-transform: translate3d(-50%, -50%, 0);
+        -o-transform: translate3d(-50%, -50%, 0);
+        -ms-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+            }
+      #rightdeck{
+        position: fixed;
+  top: calc(50% + 1.5rem);
+  right: 30%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+      }
+      #newcard{
+          position: absolute;
+          left: 370px;
+          top: 410px;
+      }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example Deck of Cards</title>
+    <link href="example.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Ubuntu+Condensed" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <!-- <div id="leftcontainer"></div> -->
+    <div id="leftdeck"></div>
+    <div id="leftcaption"></div>
+
+    <div id="rightdeck"></div>
+    <div id="newcard"></div>
+    <script src="../dist/deck.js"></script>
+    <script src="example.js"></script>
+
+  </body>
+</html>
